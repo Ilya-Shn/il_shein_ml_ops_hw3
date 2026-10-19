@@ -1,0 +1,38 @@
+{
+  "manual": {
+    "retrain_catboost": "manual__check_e3defe66dc734bad8f70015e71a7f14b",
+    "supply_labeled_batch": "manual__check_bbd0201ca3b049d8941bebe2766a707c",
+    "data_quality": "manual__check_5e59b13599aa4473ac032859f5c3359f"
+  },
+  "scheduled": {
+    "retrain_catboost": "scheduled__2026-10-19T17:45:00+00:00",
+    "supply_labeled_batch": "scheduled__2026-10-19T17:45:00+00:00",
+    "data_quality": "scheduled__2026-10-19T17:45:00+00:00"
+  },
+  "state": {
+    "active": "a188869791786a4b5ae3e768",
+    "next_month": "2019-05",
+    "latest_month": "2020-08",
+    "training_runs": {
+      "9f80a6b5ef82589e154080a6": true,
+      "a188869791786a4b5ae3e768": true,
+      "29ad8a5f1025db8ce2e4d8c4": false,
+      "ee4a00c2eee85851e9e608b3": false,
+      "127fdfbd4d833c35251e9dbe": false,
+      "d8eaf11e5f4ff2fb2f30cbb4": false
+    },
+    "supply_runs": [
+      "f701f9ba252b7c700073af02",
+      "73c181edb58b134836ee7625",
+      "30ec4d3bcc416805031e692c",
+      "7643821be7037386fd735644",
+      "d8b61db737d5ac685d854326"
+    ]
+  },
+  "smoke": "{\"transactions\": 120, \"versions\": [\"a188869791786a4b5ae3e768\"], \"postgres\": 120}\n",
+  "invariants": "test_compare_and_temporal_split (tests.test_pipeline.PipelineTest.test_compare_and_temporal_split) ... ok\ntest_dq_failure_writes_report (tests.test_pipeline.PipelineTest.test_dq_failure_writes_report) ... ok\ntest_publish_retry_and_hot_reload (tests.test_pipeline.PipelineTest.test_publish_retry_and_hot_reload) ... ok\ntest_reject_keeps_pointer (tests.test_pipeline.PipelineTest.test_reject_keeps_pointer) ... ok\ntest_supply_retry_and_retention (tests.test_pipeline.PipelineTest.test_supply_retry_and_retention) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.910s\n\nOK\n",
+  "ui_run": {
+    "id": "manual__2026-10-19T17:45:14.567653+00:00",
+    "state": "success"
+  }
+}

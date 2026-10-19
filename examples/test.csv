@@ -1,0 +1,7 @@
+transaction_time,merch,cat_id,amount,name_1,name_2,gender,street,one_city,us_state,post_code,lat,lon,population_city,jobs,merchant_lat,merchant_lon
+2019-09-14 02:46,"fraud_Stokes, Christiansen and Sipes",grocery_net,25.79,Имя,Фамилия,M,Улица,Cross Plains,TX,76443,32.1482,-99.1872,1897,Chief Operating Officer,31.772057,-99.103183
+2019-07-25 20:30,fraud_Thompson-Gleason,health_fitness,87.8,Имя,Фамилия,M,Улица,Falconer,NY,14733,42.1239,-79.1895,3833,Metallurgist,42.635312,-78.334559
+2020-01-05 17:27,fraud_Friesen Inc,shopping_pos,10.98,Имя,Фамилия,F,Улица,Altair,TX,77412,29.6047,-96.5249,106,"Editor, film/video",29.363782,-95.624994
+2019-04-15 23:31,"fraud_Altenwerth, Cartwright and Koss",shopping_net,927.78,Имя,Фамилия,M,Улица,Granbury,TX,76048,32.425,-97.7742,47119,"Editor, film/video",31.688611,-98.765553
+2019-10-19 23:23,fraud_Gleason-Macejkovic,shopping_net,1063.85,Имя,Фамилия,M,Улица,Moriarty,NM,87035,34.9889,-106.0609,7268,"Therapist, art",35.355015,-105.774325
+2019-01-21 02:34,fraud_Harris Inc,gas_transport,9.18,Имя,Фамилия,F,Улица,Milford,OH,45150,39.1657,-84.233,31394,Hospital doctor,38.833889,-83.308515

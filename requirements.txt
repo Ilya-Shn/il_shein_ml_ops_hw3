@@ -1,0 +1,8 @@
+kafka-python==2.2.15
+psycopg[binary]==3.2.10
+streamlit==1.49.1
+catboost==1.2.8
+numpy==1.26.4
+pandas==2.2.3
+pyarrow==19.0.1
+scikit-learn==1.6.1
